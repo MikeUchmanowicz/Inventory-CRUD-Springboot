@@ -15,7 +15,7 @@ The web application is built using springboot as a backend and thymeleaf as a fr
 
 The user is able to access the application through their browser. The user, unless logged in, is only able to see the home page, the login page, and the register page. Login will be done through Spring Security while registration will implement it to some degree. Upon registration, a user is assigned a role of "user". Once logged in, the user has access to a products store page, a myproducts page which will show all the user's "purchased" products, and an option to logout. Only a user can access the myproducts page. 
 
-The Product super model will consist of three product sub models: Weapons, Armor, Health. They will all be stored as products within the MySQL database.
+The Product super model will consist of three product sub models: Weapons, Armor, Health. They will all be stored as products within the MySQL database and will be owned either by an admin or a user. 
 
 An Admin will be able to log in and directly create, edit, or delete items using the interface provided within the products store page and will not be able to access the "myproducts" page. A user can head to the products store page, where he is given an option to purchase different products. Upon purchase of a product, a quantity of 1 of that product is removed from the "admin's inventory" (products page), and is placed into the User's inventory (MyProducts page). These create, edit, delete, and purchase operations all rely on and are supported by database operations.
 
