@@ -24,8 +24,8 @@ An Admin will be able to log in and directly create, edit, or delete items using
 The user will access the application through their browser. The application is currently locally hosted using a Tomcat Server that is running on port 8080. The database is also locally hosted using Mamp and is accessed through port 3306.
 
 ## Visual Walkthrough
-
-
+#### Loom Video
+https://www.loom.com/share/5fa5c7ccdc4146c1aedacfcdef59e0a5
 
 ## Design Choices
 
