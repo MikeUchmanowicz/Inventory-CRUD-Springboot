@@ -48,15 +48,17 @@ The user will access the application through their browser. The application is c
 
 #### General Technical approach
 
-We wanted to make the design as simple as possible
+We wanted to make the design as simple as possible-- offering the Admin ways to create, edit, and delete products on the same page that the user can purchase products from. We use dynamically shown buttons (according to currently logged in user's role) to change the interfaces on the products store page to achieve this. We use this ssame technique to hide pages the current user does not have access to, whether their role is different, or whether they are unauthenticated entirely. The same concept is carried over to the login, register, and logout buttons, which are dynamicly shown based on whether the current user is already authenticated.
 
 #### Technical Design Decisions
+
+Springboot and thymeleaf were used as the frameworks for this project because this application is part of a Java Level 3 class. We chose to use MySQL because MySQL offers relational database support; we needed to provide Users with their own roles in a seperate table linked by username and products in a seperate table that were linked by username as well. We chose to use polymorphic items as we wanted to challenge ourselves a little, and it made the app a tad more interesting. Springboot Security was used due to its seemless "single-class" implementation into the rest of the project.
 
 We have discussed ideas of implementing friends through friend requests and friend lists in addition to having also discussed ideas of implementing trading of items among users and or friends through trade offers. Both of these implementations are currently out of scope.
 
 ___
 
-Some Documentation is too large to be included in this README. Please refer to the [Documentation within this repository](Documentation/) for All documentation. Included are: High level Block Diagram, Logical Diagram, Physical Diagram, UML, Flowchart, DDL scripts, ER Diagram, Game Wireframe, Django Wireframes, and Sitemap. 
+Some Documentation is too large to be included in this README. Please refer to the [Documentation within this repository](Documentation/) for All documentation. Included are:  UML, DDL scripts, ER Diagram, Wireframes, and Sitemap. 
 
 ___
 [Please check out my other projects](https://github.com/MikeUchmanowicz/Start)
