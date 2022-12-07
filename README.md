@@ -58,7 +58,7 @@ We have discussed ideas of implementing friends through friend requests and frie
 
 ___
 
-Some Documentation is too large to be included in this README. Please refer to the [Documentation within this repository](Documentation/) for All documentation. Included are:  UML, DDL scripts, ER Diagram, Wireframes, and Sitemap. 
+Some Documentation is too large to be included in this README. Please refer to the [Documentation within this repository](Documentation/) for All documentation. Included are:  UML, ER Diagram, and Sitemap. 
 
 ___
 [Please check out my other projects](https://github.com/MikeUchmanowicz/Start)
