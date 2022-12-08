@@ -3,6 +3,12 @@ Michal A Uchmanowicz & Luke Walder, Grand Canyon University, 2022
 
 *Java, Springboot, Thymeleaf*
 
+___
+
+All Documentation may not be posted within this repository due to it being part of the Grand Canyon University Curriculum. Documentation and Details are available upon request. 
+
+___
+
 ## Abstract
 
 We ([Luke Walder](https://github.com/lw0545/) and myself) created a web application to allow users to "purchase" items from a store. The application will base itself around polymorphic product items; they will take on the form of Weapons, Armor, or Health Items. All users are required to register and login in order to access most of the website. An Admin user can create, edit, and delete products as they like via the products store page. A standard User can "purchase" products from the products store page which will be reflected in their own products page. Product and User information are stored in a database.
@@ -63,4 +69,4 @@ ___
 All Documentation may not be posted within this repository due to it being part of the Grand Canyon University Curriculum. Documentation and Details are available upon request. 
 
 ___
-[Please check out my other projects](https://github.com/MikeUchmanowicz/Start)
+[Please check out my other projects](https://github.com/MikeUchmanowicz/Start-Here)
