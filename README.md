@@ -34,14 +34,19 @@ The user will access the application through their browser. The application is c
 #### Loom Video
 
 https://www.loom.com/share/5fa5c7ccdc4146c1aedacfcdef59e0a5
+
 Inventory and Purchasing updates
 
 https://www.loom.com/share/aba278307114416bbcf10b060ab0b395
+
 Adding Users as friends
+
 
 <div align="left">
 <img alt = "Screenshot of App running in AWS's ECS" src="InventoryAWS.png">
 </div>  
+
+Screenshot of App running in AWS's ECS
 
 ## Design Choices
 
