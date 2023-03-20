@@ -43,7 +43,7 @@ Adding Users as friends
 
 
 <div align="left">
-<img alt = "Screenshot of App running in AWS's ECS" src="InventoryAWS.png">
+<img alt = "Screenshot of App running in AWS's ECS" src="InventoryAWS2.png">
 </div>  
 
 Screenshot of App running in AWS's ECS
