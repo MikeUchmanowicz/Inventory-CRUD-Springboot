@@ -54,6 +54,11 @@ Screenshot of App running in AWS's ECS
 
 Screenshot of App running in AWS's ECS
 
+<div align="left">
+<img alt = "Screenshot of App running in AWS's ECS" src="InventoryAWS4.png">
+</div>  
+
+Screenshot of App running in AWS's ECS
 ## Design Choices
 
 #### Tehnologies Used
