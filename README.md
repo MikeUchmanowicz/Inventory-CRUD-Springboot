@@ -13,8 +13,9 @@ ___
 
 We ([Luke Walder](https://github.com/lw0545/) and myself) created a web application to allow users to "purchase" items from a store and add eachother as friends. The application will base itself around polymorphic product items; they will take on the form of Weapons, Armor, or Health Items. All users are required to register and login in order to access most of the website. An Admin user can create, edit, and delete products as they like via the products store page. A standard User can "purchase" products from the products store page which will be reflected in their own products page (and users can delete their own products). Users will have a page to view current incoming and outcoing friend requests in addition to current friends. Users, User relationships, and Product information are stored in a MySQL database. 
 
-A docker image of the application has been created and was used to create an ECS instance of this application. A pipeline has been created using Github actions.
-Logging, Tracing, and uptime monitoring have all been added.
+Application is containerized using docker and an image was uploaded to AWS's ECS. Production level logging, tracing, ptime monitoring, and a pipeline built in Github Actions are used.
+
+
 ## Design Introduction
 
 The web application is built using springboot as a backend and thymeleaf as a front end. Spring Security is used to properly authenticate and authorize users in order to access the application. User and Product Information are stored in a MySQL database that will be accessed using Spring's JDBC Template object. The application will be built following an N-Layered Architecture scheme, adhering to separation of concerns and utilizing dependency injection.
