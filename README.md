@@ -37,17 +37,15 @@ The user will access the application through their browser. The application is c
 
 https://www.loom.com/share/5fa5c7ccdc4146c1aedacfcdef59e0a5
 
-Inventory and Purchasing updates
-
-
-https://www.loom.com/share/aba278307114416bbcf10b060ab0b395
 
 Adding Users as friends
 
+https://www.loom.com/share/aba278307114416bbcf10b060ab0b395
 
-https://www.loom.com/share/2f0fc5d1160e4ffab57c5f4ee22adda9
 
 Dev Ops integration, Github Actions, Docker, logging, uptime monitoring
+
+https://www.loom.com/share/2f0fc5d1160e4ffab57c5f4ee22adda9
 
 
 <div align="left">
